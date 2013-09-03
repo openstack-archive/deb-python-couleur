@@ -1,0 +1,30 @@
+Source: python-couleur
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Julien Danjou <acid@debian.org>,
+           Thomas Goirand <zigo@debian.org>,
+           Mehdi Abaakouk <sileht@sileht.net>
+Build-Depends: debhelper (>= 9),
+               openstack-pkg-tools,
+               python-all (>= 2.6.6-3~),
+               python-setuptools
+Build-Depends-Indep: python-nose, python-steadymark, python-sure
+Standards-Version: 3.9.4
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-couleur.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-couleur.git
+Homepage: http://github.com/gabrielfalcao/couleur
+
+Package: python-couleur
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: python-nose,
+         python-steadymark,
+         python-sure,
+         ${misc:Depends},
+         ${python:Depends}
+Recommends: ${python:Recommends}
+Description: tool to play around with ANSI features in a unix terminal
+ Couleur is an ANSI terminal tool for Python, colored shell and other handy
+ fancy features. With couleur you can mix modifiers and colors. Couleur is made
+ of a single Python file and comes with syntax sugar.

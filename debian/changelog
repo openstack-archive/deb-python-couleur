@@ -1,0 +1,5 @@
+python-couleur (0.5.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #721715)
+
+ -- Thomas Goirand <zigo@debian.org>  Tue, 03 Sep 2013 19:49:16 +0800
