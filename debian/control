@@ -19,7 +19,6 @@ Package: python-couleur
 Architecture: all
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: python-nose,
-         python-steadymark,
          python-sure,
          ${misc:Depends},
          ${python:Depends}
