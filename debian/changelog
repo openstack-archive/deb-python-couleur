@@ -1,3 +1,9 @@
+python-couleur (0.5.0-2) unstable; urgency=low
+
+  * Removed python-steadymark as Depends: (Closes: #722507, #722507).
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 21 Sep 2013 13:29:34 +0800
+
 python-couleur (0.5.0-1) unstable; urgency=low
 
   * Initial release. (Closes: #721715)
