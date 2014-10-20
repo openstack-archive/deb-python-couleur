@@ -3,6 +3,7 @@ python-couleur (0.5.0-3) unstable; urgency=medium
   * Added FORCE_COULEUR=1 when running unit tests, so that it works even when
     building with git-buildpackage.
   * Fixed debian/copyright Files: field.
+  * Standards-Version is now 3.9.6 (no change).
 
  -- Thomas Goirand <zigo@debian.org>  Mon, 20 Oct 2014 08:05:29 +0000
 
