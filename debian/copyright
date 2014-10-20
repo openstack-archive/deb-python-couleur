@@ -6,7 +6,7 @@ Files: debian/*
 Copyright: (c) 2013, Thomas Goirand <zigo@debian.org>
 License: GPL-3
 
-Files: test*
+Files: *
 Copyright: (c) 2010-2013, Gabriel Falcão <gabriel@nacaolivre.org>
 License: GPL-3
 
