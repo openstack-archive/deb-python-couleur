@@ -13,7 +13,7 @@ Build-Depends-Indep: python-nose, python-sure
 Standards-Version: 3.9.6
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-couleur.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-couleur.git
-Homepage: http://github.com/gabrielfalcao/couleur
+Homepage: https://github.com/gabrielfalcao/couleur
 
 Package: python-couleur
 Architecture: all
