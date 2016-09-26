@@ -11,8 +11,8 @@ Build-Depends: debhelper (>= 9),
                python-setuptools
 Build-Depends-Indep: python-nose, python-sure
 Standards-Version: 3.9.6
-Vcs-Browser: https://anonscm.debian.org/cgit/openstack/python-couleur.git/
-Vcs-Git: https://anonscm.debian.org/git/openstack/python-couleur.git
+Vcs-Browser: https://git.openstack.org/cgit/openstack/deb-python-couleur?h=debian%2Fnewton
+Vcs-Git: https://git.openstack.org/openstack/deb-python-couleur -b debian/newton
 Homepage: https://github.com/gabrielfalcao/couleur
 
 Package: python-couleur
