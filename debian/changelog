@@ -1,4 +1,4 @@
-python-couleur (0.5.0-4) UNRELEASED; urgency=medium
+python-couleur (0.5.0-4) unstable; urgency=medium
 
   * Fixed homepage (https).
   * Fixed VCS URLs (https).
